@@ -10,7 +10,7 @@ services:
   - icon: ti-world
     title: Articles
     description: We're commited to to writing regular high quality articles on current world affairs. 
-
+ 
   - icon: ti-rocket
     title: Project Reviews
     description: Every day, new projects come into existence, we try to keep up with the most intriguing and promising ones.
