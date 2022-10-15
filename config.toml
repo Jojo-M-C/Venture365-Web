@@ -40,7 +40,7 @@ theme = "hugo-apsho-master"
 
 [[menu.mainfooter]]
     name = "Home"
-    url = "/home"
+    url = "#hero"
     weight = 1
 
 [[menu.mainfooter]]
