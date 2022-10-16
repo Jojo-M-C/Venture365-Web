@@ -24,19 +24,24 @@ theme = "hugo-apsho-master"
 # Footer Sitemap
 
 [[menu.sitemap]]
+    name = "About Us"
+    url = "/#"
+    weight = 1
+
+[[menu.sitemap]]
     name = "Imprint"
     url = "/imprint"
-    weight = 2
+    weight = 4
 
 [[menu.sitemap]]
     name = "Privacy & Policy"
     url = "/privacy"
-    weight = 1
+    weight = 3
 
 [[menu.sitemap]]
     name = "Contact"
     url = "/contact"
-    weight = 3
+    weight = 2
 
 [[menu.mainfooter]]
     name = "Home"
