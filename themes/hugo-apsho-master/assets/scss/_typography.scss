@@ -72,6 +72,19 @@ h7 {
   text-align: center;
 }
 
+.div-centered {
+  text-align: left; 
+  margin: auto; 
+  width: 188px;
+}
 
+@media only screen and (max-width: 770px) {
+  .hide-mobile 
+  {display:none;}
+ }
 
-
+ @media only screen and (min-width: 770px) {
+  .hide-pc {
+  display:none;
+  }
+}

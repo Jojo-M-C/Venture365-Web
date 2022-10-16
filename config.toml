@@ -86,7 +86,8 @@ googleAnalytics = "UA-175025671-2"
 # Footer
 footerTitle = "Join Our Newsletter"
 copyright1 = "All right reserved"
-copyright2 = "Copyright © Venture365 {year}"
+copyright2 = " © Venture365 {year}"
 
 #contact
 email = "help@staticmania.com"
+

@@ -44,60 +44,92 @@
         </form>
       </div>
     </div>
-    <div class="row">
-      <div class="col-lg-4 col-md-4">
-        <div class="col-lg-4 col-md-4">
-          <div class="footer-widget">
-            <h4>Menu</h4>
-            <div class="footer-widget-list">
-              <ul>
-                {{ $mainfooter := .Site.Menus.mainfooter }}
-                  {{ range $mainfooter }}
-                    <li><a href="{{ .URL | absURL }}">{{ .Name }}</a></li>
-                {{ end }}
-              </ul>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="col-lg-4 col-md-4">
-        <div class="footer-widget">
-          <h4>Company</h4>
-          <div class="footer-widget-list">
-            <ul>
-              {{ $sitemap := .Site.Menus.sitemap }}
-                {{ range $sitemap }}
-                  <li><a href="{{ .URL | absURL }}">{{ .Name }}</a></li>
-              {{ end }}
-            </ul>
-          </div>
-        </div>
-      </div>
-      <div class="col-lg-4 col-md-4">
-        <div class="footer-widget">
-          <h4>Address</h4>
-          {{ $address := .Site.Params.address }}
-          <div class="footer-widget-list">
-            <ul>
-              <li><a href="tel:{{ $address.phone }}"><i class="ti-mobile"></i>{{ $address.phone }}</a></li> 
-              <li><a href="mailto:{{ $address.email }}"><i class="ti-email"></i>{{ $address.email }}</a></li>
-              <li><p><i class="ti-pin"></i>{{ $address.address }}</p></li>
-              <p> <br></p>
-            </ul>
-          </div>
-        </div>
-      </div>
- 
-    </div>
-    <div class="text-center">
-      <p> <br> <br>  </p>
 
-      <p>
+    <div class="row text-center hide-mobile">
+      <div class="col">
+        <div class="div-centered">
+          <h4>Menu</h4>
+        </div>
+        <div class="footer-widget-list div-centered">
+          <ul>
+            {{ $mainfooter := .Site.Menus.mainfooter }}
+              {{ range $mainfooter }}
+                <li><a href="{{ .URL | absURL }}">{{ .Name }}</a></li>
+            {{ end }}
+          </ul>
+        </div>
+      </div>
+      <div class="col">
+        <div class="div-centered">
+          <h4>Company</h4>
+        </div>
+        <div class="footer-widget-list div-centered">
+          <ul>
+            {{ $sitemap := .Site.Menus.sitemap }}
+              {{ range $sitemap }}
+                <li><a href="{{ .URL | absURL }}">{{ .Name }}</a></li>
+            {{ end }}
+          </ul>
+        </div>
+      </div>
+      <div class="col">
+        <div class="div-centered">
+          <h4>Contact</h4>
+        </div>
+        <div class="footer-widget-list div-centered">
+          +43 660 680 4418
+          <br>
+          team@venture365.org
+        </div>
+      </div>
+    </div>
+
+    <!-- Desktop Footer  -->
+
+    <div class="text-center hide-mobile">
+
+      <p> <br>   </p>
+      <hr />
+      <!-- <div class="container">
+        <div class="row ">
+          <div class="col-sm ">
+            {{ .Site.Params.copyright1 }}
+             {{ replace .Site.Params.copyright2   "{year}" now.Year | safeHTML }}
+          </div>
+          <div class="col-sm">
+            Made with ❤️ in Vienna
+          </div>
+          <div class="col-sm">
+            GFPR Compliant     
+          </div>
+
+        </div> -->
+      </div>
+      <div class="row text-center hide-mobile">
+        <div class="col">
+          <div class="div-centered">
+            {{ replace .Site.Params.copyright2 "{year}" now.Year | safeHTML }}
+          </div>
+        </div>
+        <div class="col">
+          <div class="div-centered">
+            Made with ❤️ in Vienna
+          </div>
+        </div>
+        <div class="col">
+          <div class="div-centered">
+            🛡️ GDPR Compliant     
+
+          </div>
+        </div>
+      </div>
+
+      <!-- <p>Made with ❤️ in Vienna </p> -->
+      <!-- <p>
         {{ .Site.Params.copyright1 }}
-          </br>
-          {{ replace .Site.Params.copyright2   "{year}" now.Year | safeHTML }}
+          {{ replace .Site.Params.copyright2   "{year}" now.Year | safeHTML }} -->
       </p>
-      <ul class="footer-description-social">
+      <!-- <ul class="footer-description-social">
         <li>
           <a href="{{ .Site.Params.social.facebook }}"><i class="ti-facebook"></i></a>
         </li>
@@ -107,9 +139,54 @@
         <li>
           <a href="{{ .Site.Params.social.github }}"><i class="ti-github"></i></a>
         </li>
-      </ul>
+      </ul> -->
     </div>
   </div>
+      <!-- Mobile Footer  -->
+      <div class="row hide-pc ">
+        <div class="col-lg-4 col-md-4">
+          <div class="col-lg-4 col-md-4">
+            <div class="footer-widget">
+              <h4>Menu</h4>
+              <div class="footer-widget-list">
+                <ul>
+                  {{ $mainfooter := .Site.Menus.mainfooter }}
+                    {{ range $mainfooter }}
+                      <li><a href="{{ .URL | absURL }}">{{ .Name }}</a></li>
+                  {{ end }}
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-4">
+          <div class="footer-widget">
+            <h4>Company</h4>
+            <div class="footer-widget-list">
+              <ul>
+                {{ $sitemap := .Site.Menus.sitemap }}
+                  {{ range $sitemap }}
+                    <li><a href="{{ .URL | absURL }}">{{ .Name }}</a></li>
+                {{ end }}
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-4">
+          <div class="footer-widget">
+            <h4>Contact</h4>
+            {{ $address := .Site.Params.address }}
+            <div class="footer-widget-list">
+              <ul>
+                <li><a href="tel:{{ $address.phone }}"><i class="ti-mobile"></i>{{ $address.phone }}</a></li> 
+                <li><a href="mailto:{{ $address.email }}"><i class="ti-email"></i>{{ $address.email }}</a></li>
+                <!-- <li><p><i class="ti-pin"></i>{{ $address.address }}</p></li> -->
+                <p> <br></p>
+              </ul>
+            </div>
+          </div>
+        </div>  
+      </div>
 </footer>
 
 {{ $style := resources.Get "scss/non-critical.scss" | resources.ToCSS | minify }}
@@ -140,3 +217,4 @@
     </li>
   </ul>
 </div> -->
+
