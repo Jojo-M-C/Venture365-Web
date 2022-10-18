@@ -35,8 +35,12 @@
         <div class="row align-items-center">
           <div class="col-lg-6 order-2 order-lg-1">
             <div class="hero-content">
+
               <span class="hero-content-subtitle"> {{ .caption }} </span>
-              <p> <br> <br> <br><br> <br></p>
+              <div class="d-none d-xxl-block">
+                <p> <br> <br> <br><br> <br></p>
+              </div>
+              <div class="d-none d-xxl-block">hide on screens smaller than lg</div>
               <h5>Founded to <span class="highlight">Explore</span></h5>
               <h6>the buisnesses and minds that shape our world</h6>
               <h1> {{ .title }} </h1>
@@ -99,14 +103,17 @@
           </div>
 
           <div class="col-lg-6 order-1 order-lg-2">
-            <p> <br> <br>  <br> <br></p>
+            <div class="d-none d-xxl-block">
+              <p> <br> <br> <br><br></p>
+            </div>
 
 
 
             <div class="hero-image hide-mobile">
               <img src={{ .image }}  
-              width="550"             
+              width="510"             
               alt="hero-img" />
+            
             </div>
           </div>
         </div>

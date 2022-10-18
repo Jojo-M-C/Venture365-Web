@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Articles on Venture365</title>
+    <link>https://venture365.co/articles/</link>
+    <description>Recent content in Articles on Venture365</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 31 Aug 2020 20:33:11 +0600</lastBuildDate><atom:link href="https://venture365.co/articles/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Sample Post 1</title>
+      <link>https://venture365.co/articles/sample1/</link>
+      <pubDate>Tue, 08 Sep 2020 20:18:07 +0600</pubDate>
+      
+      <guid>https://venture365.co/articles/sample1/</guid>
+      <description>A lot has changed about how we work, and most people have no choice but to transition to working from home. But even before the pandemic, an increasing number of people bid goodbye to their onerous commute to become freelancers and telecommuters. Thanks to ever-evolving technologies such as Skype, Zoom, Facetime, Google Hangouts, Slack, and cloud computing, it’s no longer necessary to be in an office to be productive. In fact, most tasks can be done just as effectively from home.</description>
+    </item>
+    
+    <item>
+      <title>Sample Post 2</title>
+      <link>https://venture365.co/articles/sample2/</link>
+      <pubDate>Mon, 07 Sep 2020 20:18:07 +0600</pubDate>
+      
+      <guid>https://venture365.co/articles/sample2/</guid>
+      <description>A lot has changed about how we work, and most people have no choice but to transition to working from home. But even before the pandemic, an increasing number of people bid goodbye to their onerous commute to become freelancers and telecommuters. Thanks to ever-evolving technologies such as Skype, Zoom, Facetime, Google Hangouts, Slack, and cloud computing, it’s no longer necessary to be in an office to be productive. In fact, most tasks can be done just as effectively from home.</description>
+    </item>
+    
+    <item>
+      <title>Sample Post 3</title>
+      <link>https://venture365.co/articles/sample3/</link>
+      <pubDate>Thu, 03 Sep 2020 20:18:07 +0600</pubDate>
+      
+      <guid>https://venture365.co/articles/sample3/</guid>
+      <description>A lot has changed about how we work, and most people have no choice but to transition to working from home. But even before the pandemic, an increasing number of people bid goodbye to their onerous commute to become freelancers and telecommuters. Thanks to ever-evolving technologies such as Skype, Zoom, Facetime, Google Hangouts, Slack, and cloud computing, it’s no longer necessary to be in an office to be productive. In fact, most tasks can be done just as effectively from home.</description>
+    </item>
+    
+  </channel>
+</rss>

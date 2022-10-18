@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Interviews on Venture365</title>
+    <link>https://venture365.co/interviews/</link>
+    <description>Recent content in Interviews on Venture365</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 31 Aug 2020 20:33:11 +0600</lastBuildDate><atom:link href="https://venture365.co/interviews/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Sample Post 4</title>
+      <link>https://venture365.co/interviews/sample4/</link>
+      <pubDate>Sun, 06 Sep 2020 20:18:07 +0600</pubDate>
+      
+      <guid>https://venture365.co/interviews/sample4/</guid>
+      <description>has changed about how we work, and most people have no choice but to transition to working from home. But even before the pandemic, an increasing number of people bid goodbye to their onerous commute to become freelancers and telecommuters. Thanks to ever-evolving technologies such as Skype, Zoom, Facetime, Google Hangouts, Slack, and cloud computing, it’s no longer necessary to be in an office to be productive. In fact, most tasks can be done just as effectively from home.</description>
+    </item>
+    
+    <item>
+      <title>Sample Post 5</title>
+      <link>https://venture365.co/interviews/sample5/</link>
+      <pubDate>Sat, 05 Sep 2020 20:18:07 +0600</pubDate>
+      
+      <guid>https://venture365.co/interviews/sample5/</guid>
+      <description>A lot has changed about how we work, and most people have no choice but to transition to working from home. But even before the pandemic, an increasing number of people bid goodbye to their onerous commute to become freelancers and telecommuters. Thanks to ever-evolving technologies such as Skype, Zoom, Facetime, Google Hangouts, Slack, and cloud computing, it’s no longer necessary to be in an office to be productive. In fact, most tasks can be done just as effectively from home.</description>
+    </item>
+    
+  </channel>
+</rss>
